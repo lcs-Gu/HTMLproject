@@ -1,0 +1,37 @@
+
+h1{
+  color:rgb(207, 36, 36);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size:2em;
+}
+h2.name{
+  color:gold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:1em;
+}
+div.title{
+ background: rgb(202, 191, 27);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, rgb(172, 158, 31));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  margin: 0;
+  padding: 0;
+}
+h4{
+  font-size: 1.5em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-weight:bold;
+  color:purple;
+}
+div{
+background-image: url(https://static01.nyt.com/images/2013/03/09/arts/09iht-rartbembo09a/09iht-rartbembo09a-superJumbo.jpg?quality=90&auto=webp);
+}
+h3{
+  color:white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: right;
+  font-weight:100;
+}
