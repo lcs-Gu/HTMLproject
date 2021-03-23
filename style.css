@@ -1,16 +1,5 @@
 
-h1{
-  color:rgb(207, 36, 36);
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  font-size:2em;
-}
-h2.name{
-  color:gold;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size:1em;
-}
-div.title{
+body{
  background: rgb(202, 191, 27);
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-linear-gradient(-45deg, #35577D, rgb(172, 158, 31));
@@ -19,19 +8,92 @@ div.title{
   margin: 0;
   padding: 0;
 }
+
+a {
+  color:gold
+}
+h1{
+  color:rgb(207, 36, 36);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size:2em;
+  margin-bottom: 45px;
+
+}
+h2.name{
+  color:gold;
+   border-bottom: 1px solid gold;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  text-align: left;
+  width: 70%;
+  font-family: Georgia;
+  
+}
+
 h4{
   font-size: 1.5em;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   font-weight:bold;
-  color:purple;
-}
-div{
-background-image: url(https://static01.nyt.com/images/2013/03/09/arts/09iht-rartbembo09a/09iht-rartbembo09a-superJumbo.jpg?quality=90&auto=webp);
+  color:rgb(188, 188, 241);
 }
 h3{
   color:white;
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: right;
   font-weight:100;
+  margin-bottom: 45px;
+}
+h5{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  font-size:0.5cm;
+  color:rgb(206, 152, 71);
+font-weight:100;
+border-bottom: 1px solid gold;
+}
+h6{
+  font-weight:bold;
+  font-family: :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:0.5cm;
+color:gold;
+line-height:1em;
+text-transform:uppercase;
+text-align:center;
+}
+ul.prayer{
+color:white;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size:0.5cm
+text-height:1em;
+font-weight:100;
+}
+.image{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Family_of_Henry_VIII_c_1545_detail.jpg/1280px-Family_of_Henry_VIII_c_1545_detail.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+figurecaption{
+  color:gold;
+  font-weight: 100;
+  font-size: 20px;
+  width: 70%;
+  font-family: Georgia; 
+  text-align: center;
+}
+figcaption.Ix{
+color:red;
+  font-weight: 100;
+  font-size: 20px;
+  width: 70%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
